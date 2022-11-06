@@ -118,14 +118,26 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     
 }
 
-.ten {
-    font-size: 38px;
+.ten_image {
     margin-left: 200px;
+    margin-top: 5px;
+}
+
+.ten {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.six_image {
+    margin-left: 100px;
+    margin-top: 5px;
 }
 
 .six {
-    margin-left: 120px;
-    font-size: 38px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .temy {
@@ -151,18 +163,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-right: 25px;
 }
 
-.courses::before {
-    content:" ";
-    display: block;
-    height: 2px;
-    width: 30px;
-    position: absolute;
-    left: 0;
-    background: rgb(3, 3, 3);
-
-    margin-right: 25px;
-}
-
 .sostav_courses {
     color: #323232;
 }
@@ -175,18 +175,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-size: 18px;
     font-weight: 600;
     margin-top: 35px;
-}
-
-.paragraf_temy::before {
-    content:" ";
-    display: block;
-    height: 2px;
-    width: 30px;
-    position: absolute;
-    top: 79%;
-    left: 0;
-    background: rgb(0, 0, 0);
-    margin-left: 200px;
 }
 
 .conteins {
@@ -241,9 +229,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 }
 
-.old_to {
-   
-    
+.icon_baby {
+    display: inline-block;
+    margin: 5px;
 }
 
 .old {
@@ -278,3 +266,51 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-weight: 800;
     font-size: 16px;
 }
+
+
+/*Footer*/
+
+ul {
+    margin-top: 25px;
+}
+
+li {
+    margin-top: 15px; 
+}
+
+.footer {
+    margin-top: 150px;
+    margin-left: 200px;
+    padding-top: 30px;
+    width: 1499px;
+    height: 350px;
+    background: #0099DD;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer a {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.footer h2 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+
+
+.footer_null {
+    width: 1499px;
+    height: 47px;
+    margin-left: 200px;
+    background: #222B3A;
+}
+
+
+
